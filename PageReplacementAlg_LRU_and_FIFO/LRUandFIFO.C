@@ -136,22 +136,5 @@ void lru(char s[],char F[],int l,int f)
         else
             printf("\tNo page fault");
         flag=0;
-
     }
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
