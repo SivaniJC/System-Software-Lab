@@ -64,7 +64,7 @@ void FIFO(char s[],char F[],int l,int f)
             j++;
             for(k=0;k<f;k++)
             {
-                printf("%c",F[k]);
+                printf(" %c",F[k]);
             }
             printf("\tPage-faulted %d",cnt);
             cnt++;
@@ -75,7 +75,7 @@ void FIFO(char s[],char F[],int l,int f)
             printf("\n\t%c\t",s[i]);
             for(k=0;k<f;k++)
             {
-                printf("%c",F[k]);
+                printf(" %c",F[k]);
             }
             printf("\tNo page-fault");
         }
@@ -126,7 +126,7 @@ void lru(char s[],char F[],int l,int f)
         }
         for(k=0;k<f;k++)
         {
-            printf("%c",F[k]);
+            printf(" %c",F[k]);
         }
         if(flag==0)
         {
